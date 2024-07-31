@@ -81,6 +81,6 @@ app.put("/fruits/:fruitId", async (req, res) => {
     res.redirect(`/fruits/${req.params.fruitId}`);
 });
 
-app.listen(3000, () => {
+app.listen(3006, () => {
   console.log("Listening on port 3000");
 });
